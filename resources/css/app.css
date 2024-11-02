@@ -1,0 +1,16 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.collapse.show {
+    visibility: visible;
+  }
+
+.custom-primary{
+  color: #800000;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #FFD700; /* Change to your desired active background color */
+}
